@@ -1,10 +1,10 @@
 body{
-    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #ffffff;
     color: #434455;
-    width: 1440px;
 }
 
 h1{
@@ -14,7 +14,7 @@ h1{
 
 h2{
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -39,7 +39,7 @@ header ul{
     list-style-type: none;
 }
 
-nav a{
+.menu{
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
@@ -48,57 +48,60 @@ nav a{
     font-weight: 500;
 }
 
-nav a:focus,
-nav a:hover{
+.menu:focus,
+.menu:hover{
     color: #404bbf;
 }
 
 .logo{
-    font-family: 'Raleway', Verdana, sans-serif;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.logo span{
     color: #4d5ae5;
 }
 
-address a {
-    text-decoration: none;
+.logo span{
+    color: #2e2f42;
+}
+
+.contacts{
+    
     font-style: normal;
+}
+
+.contact-list{
+    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-address a:focus,
-address a:hover{
+.contacts a:focus,
+.contacts a:hover{
     color: #404bbf;
 }
 
 /* section 1 */
 
 .solution{
-    height: 600px;
     background: #2e2f42;
 }
 
-.solution h1{
+.solution-title{
+    line-height: 1.07;
     font-size: 56px;
     text-align: center;
     color: #fff;
 }
 
-.solution button{
-    border: 0;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.order-button{
     background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -106,8 +109,8 @@ address a:hover{
     color: #fff;
 }
 
-.solution button:focus,
-.solution button:hover {
+.order-button:focus,
+.order-button:hover {
     background-color: #404bbf;
 }
 
@@ -117,14 +120,11 @@ address a:hover{
     list-style-type: none;
 }
 
-.advantages h3{
+.advantages-title{
     
     color: #2e2f42;
 }
 
-.advantages ul>li{
-    width: 264px;
-}
 
 /* section 3 */
 
@@ -136,15 +136,16 @@ address a:hover{
     list-style-type: none;
 }
 
-.our-team ul>li{
-    width: 264px;
+.team-list{
     background-color: #fff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.our-team h3{
+.teammate-title{
     text-align: center;
+}
+
+.team-paragraph{
+    font-size: 16px;
 }
 
 /* section 4 */
@@ -153,25 +154,27 @@ address a:hover{
     list-style-type: none;
 }
 
-.portfolio ul>li{
-    width: 360px;
-    height: 420px;
-    border: 1px solid #e7e9fc;
-}
-
 /* footer */
 
-footer{
+.footer-style{
     background-color: #2e2f42;
-    height: 312px;
 }
 
-footer a{
+.footer-logo{
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo-span{
     color: #f4f4fd;
 }
 
-footer p{
-    width: 264px;
+.footer-paragraph{
     color: #f4f4fd;
 }
