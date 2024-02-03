@@ -1,0 +1,177 @@
+body{
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 1440px;
+}
+
+h1{
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* header */
+
+header ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+nav a:focus,
+nav a:hover{
+    color: #404bbf;
+}
+
+.logo{
+    font-family: 'Raleway', Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo span{
+    color: #4d5ae5;
+}
+
+address a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+address a:focus,
+address a:hover{
+    color: #404bbf;
+}
+
+/* section 1 */
+
+.solution{
+    height: 600px;
+    background: #2e2f42;
+}
+
+.solution h1{
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.solution button{
+    border: 0;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.solution button:focus,
+.solution button:hover {
+    background-color: #404bbf;
+}
+
+/* section 2 */
+
+.advantages ul{
+    list-style-type: none;
+}
+
+.advantages h3{
+    
+    color: #2e2f42;
+}
+
+.advantages ul>li{
+    width: 264px;
+}
+
+/* section 3 */
+
+.our-team{
+    background-color: #f4f4fd;
+}
+
+.our-team ul{
+    list-style-type: none;
+}
+
+.our-team ul>li{
+    width: 264px;
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.our-team h3{
+    text-align: center;
+}
+
+/* section 4 */
+
+.portfolio ul{
+    list-style-type: none;
+}
+
+.portfolio ul>li{
+    width: 360px;
+    height: 420px;
+    border: 1px solid #e7e9fc;
+}
+
+/* footer */
+
+footer{
+    background-color: #2e2f42;
+    height: 312px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #f4f4fd;
+}
+
+footer p{
+    width: 264px;
+    color: #f4f4fd;
+}
